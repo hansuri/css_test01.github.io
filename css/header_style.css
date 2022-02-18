@@ -1,0 +1,50 @@
+header {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    background-color: #fff;
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 35px;
+    padding: 10px;
+    margin: 0;
+}
+
+header .user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+
+}
+
+header .user li{
+    display: inline-block;
+    padding: 15px;
+}
+
+/* 메뉴바 */
+.menu {
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+}
+.menu li {
+    display: inline-block;
+    padding: 13px;
+    text-align: center;
+    font-size: 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(253, 250, 241);
+    padding: 10px;
+    height: 23px;
+    line-height: 23px;
+}
+.menu li a:hover {
+    border-bottom: 4px solid rgb(253, 250, 241);
+    transition: all 0.5s linear 0s;
+}
